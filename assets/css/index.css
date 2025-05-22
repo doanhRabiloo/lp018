@@ -1,0 +1,227 @@
+.wrap-image-header {
+    background: repeating-linear-gradient(
+        to right,
+        #f3ebda,
+        #f3ebda 12px,
+        #ffffff 12px,
+        #ffffff 24px
+    );
+}
+.block-one {
+    .block-people-one {
+        background: linear-gradient(to bottom, #b9e089, white);
+    }
+    .block-people-two {
+        background: linear-gradient(to bottom, #df6d7c, white);
+    }
+    .block-people-three {
+        background: linear-gradient(to bottom, #ffd264, white);
+    }
+    .block-people-four {
+        background: linear-gradient(to bottom, #ba6ea5, white);
+    }
+    .block-people-five {
+        background: linear-gradient(to bottom, #77b6c2, white);
+    }
+}
+.block-two {
+    padding-top: 40px;
+
+    background: repeating-linear-gradient(
+        to right,
+        #f3ebda,
+        #f3ebda 12px,
+        #f7f1e5 12px,
+        #f7f1e5 24px
+    );
+    .title {
+        padding-bottom: 12px;
+    }
+}
+/* .wrap-list-card  */
+/* .item-card {
+    */
+.wrap-name-card {
+    margin-top: 8%;
+}
+.wrap-list-card-item {
+    width: 28%;
+    /* background-image: url(../images/camera.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.wrap-list-card-1 .wrap-list-card-item:nth-child(2){
+    margin: 0 24px;
+}
+.wrap-list-card-2 .wrap-list-card-item:nth-child(1) {
+    margin-right: 24px;
+}
+.item-card .wrap-avatar {
+    max-width: 80px;
+}
+.how-to-apply-campaign, .title-product-introduction {
+    margin-top: 70px;
+}
+.how-to-apply-campaign p, .title-product-introduction p {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #FDDAA0;
+}
+.wrap-title-how-to-campaign {
+    top: 0;
+}
+.step-apply-campaign {
+    .step {
+        -webkit-mask:
+        radial-gradient(circle at top left, transparent 14px, black 15px) top left,
+        radial-gradient(circle at top right, transparent 14px, black 15px) top right,
+        radial-gradient(circle at bottom left, transparent 14px, black 15px) bottom left,
+        radial-gradient(circle at bottom right, transparent 14px, black 15px) bottom right;
+    
+      -webkit-mask-size: 50% 50%;
+      -webkit-mask-repeat: no-repeat;
+      margin-top: 38px;
+    }
+    .step > div {
+        -webkit-mask:
+        radial-gradient(circle at top left, transparent 8px, black 10px) top left,
+        radial-gradient(circle at top right, transparent 8px, black 10px) top right,
+        radial-gradient(circle at bottom left, transparent 8px, black 10px) bottom left,
+        radial-gradient(circle at bottom right, transparent 8px, black 10px) bottom right;
+    
+      -webkit-mask-size: 50% 50%;
+      -webkit-mask-repeat: no-repeat;
+    }
+    .title {
+        color: #13310D;
+    }
+    .content {
+        color: #000000;
+    }
+    .step > div {
+        padding: 26px 64px;
+    }
+    .step-2 .wrap-x, .step-3 .wrap-x {
+        background: #13310D;
+        padding: 8px;
+        min-width: 300px;
+        display: inline-block;
+        margin: 24px auto;
+        border-radius: 60px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-post-to {
+        color: white;
+    }
+}
+.product-introduction {
+    .product {
+        -webkit-mask:
+        radial-gradient(circle at top left, transparent 14px, black 15px) top left,
+        radial-gradient(circle at top right, transparent 14px, black 15px) top right,
+        radial-gradient(circle at bottom left, transparent 14px, black 15px) bottom left,
+        radial-gradient(circle at bottom right, transparent 14px, black 15px) bottom right;
+    
+      -webkit-mask-size: 50% 50%;
+      -webkit-mask-repeat: no-repeat;
+      margin-top: 38px;
+    }
+    .product > div {
+        -webkit-mask:
+        radial-gradient(circle at top left, transparent 8px, black 10px) top left,
+        radial-gradient(circle at top right, transparent 8px, black 10px) top right,
+        radial-gradient(circle at bottom left, transparent 8px, black 10px) bottom left,
+        radial-gradient(circle at bottom right, transparent 8px, black 10px) bottom right;
+    
+      -webkit-mask-size: 50% 50%;
+      -webkit-mask-repeat: no-repeat;
+    }
+    .list-product-item {
+        width: 28%;
+    }
+    .list-product-aha-item {
+        width: 25% 
+    }
+}
+
+
+
+.row {
+    margin: 0;
+}
+.row > * {
+    padding: 0;
+}
+.w-20 {
+    width: 20%;
+}
+.pc-pr-4px {
+    padding-right: 4px;
+}
+.bg-light-green {
+    background-color: #b9e089;
+}
+.bg-rose-pink {
+    background-color: #df6d7c;
+}
+.bg-lemon-yellow {
+    background-color: #ffd264;
+}
+.bg-pastel-magenta {
+    background-color: #ba6ea5;
+}
+.bg-soft-teal {
+    background-color: #77b6c2;
+}
+.font-size-14px {
+    font-size: 14px;
+}
+.font-size-16px {
+    font-size: 16px;
+}
+.font-size-18px {
+    font-size: 18px;
+}
+p {
+    margin: 0px;
+}
+.text-white {
+    color: white;
+}
+.w-100 {
+    width: 100%;
+}
+.w-60 {
+    width: 60%;
+}
+.h-100 {
+    height: 100%;
+}
+.w-auto {
+    width: auto;
+}
+.h-auto {
+    height: auto;
+}
+@media (max-width: 767px) {
+    .pc-pr-4px {
+        padding-right: 0px;
+    }
+    .wrap-list-card-item {
+        width: 100%;
+    }
+    .wrap-list-card-1 .wrap-list-card-item:nth-child(2){
+        margin: 0;
+    }
+    .wrap-list-card-2 .wrap-list-card-item:nth-child(1) {
+        margin-right: 0;
+    }
+    .how-to-apply-campaign p {
+        font-size: 16px;
+    }
+}
