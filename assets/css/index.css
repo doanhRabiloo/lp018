@@ -151,6 +151,56 @@
 
 
 
+
+
+
+
+/* start campaign detail */
+.block-campaign-detail {
+    padding-top: 56px;
+    padding-bottom: 72px;
+    background: repeating-linear-gradient(
+        to right,
+        #f7f0e5,
+        #f7f0e5 12px,
+        #f3eada 12px,
+        #f3eada 24px
+    ); 
+    .title-campaign-detail {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: #FDDAA0;
+    }
+    .wrap-description-campaign {
+        margin: 36px auto ;
+        width: 90%;
+    }
+    .wrap-read-before-participating{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .title-item {
+        margin-right: 24px;
+        width: 140px;
+    }
+    .wrap-description-campaign > div {
+        margin-top: 36px;
+    }
+    .wrap-precautions-content {
+        margin-top: 24px;
+    }
+    .wrap-precautions-content .title {
+        padding: 8px 16px;
+        border: 1px solid black;
+    }
+    .wrap-precautions-content .content {
+        padding: 12px 24px;
+    }
+}
+/* end campaign detail */
+
+
 .row {
     margin: 0;
 }
@@ -224,4 +274,16 @@ p {
     .how-to-apply-campaign p {
         font-size: 16px;
     }
+    
+    /* start campaign detail */
+    .block-campaign-detail {
+        .title-item {
+            margin-right: 0px;
+            width: 100%;
+        }
+        .wrap-description-campaign > div {
+            margin-top: 12px;
+        }
+    }
+    /* end campaign detail */
 }
