@@ -9,7 +9,7 @@
 }
 .block-one {
     .block-people {
-        padding-top:400px;
+        padding-top:420px;
     }
     .block-people-one {
         background: linear-gradient(to bottom, #b9e089, white);
@@ -39,6 +39,52 @@
     );
     .title {
         padding-bottom: 12px;
+    }
+    .title-1-decoration {
+        text-decoration: underline;
+        text-decoration-color: orange;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 2px;
+    }
+    .decoration-orange {
+        width: 100%;
+        height: 40%;
+        background: #FAA370;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.8;
+    }
+    .decoration-green {
+        width: 100%;
+        height: 40%;
+        background: #B9E089;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.8;
+    }
+    .decoration-yellow {
+        width: 100%;
+        height: 40%;
+        background: #FFD264;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.8;
+    }
+    .decoration-magenta {
+        width: 100%;
+        height: 40%;
+        background: #BA6EA5;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.8;
+    }
+    .decoration-soft-teal {
+        width: 100%;
+        height: 40%;
+        background: #77B6C2;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.8;
     }
 }
 /* .wrap-list-card  */
@@ -210,6 +256,26 @@
         margin: 20px auto 0 auto;
     }
 }
+.sp-wrap-block-speciable {
+    background: repeating-linear-gradient(
+        to right,
+        #F3EADA,
+        #F3EADA 12px,
+        #FFFFFF 12px,
+        #FFFFFF 24px
+    );
+    padding-top: 130px;
+    .block-speciable {
+        background: #13310D;
+        padding: 6px;
+    }
+    .block-speciable p {
+        color: #FDDAA0;
+    }
+    .block-speciable > div {
+        border: 2px solid #FDDAA0;
+    }
+}
 /* end-header */
 
 /* start campaign detail */
@@ -218,10 +284,10 @@
     padding-bottom: 72px;
     background: repeating-linear-gradient(
         to right,
-        #f7f0e5,
-        #f7f0e5 12px,
-        #f3eada 12px,
-        #f3eada 24px
+        #F3EADA,
+        #F3EADA 12px,
+        #FFFFFF 12px,
+        #FFFFFF 24px
     ); 
     .title-campaign-detail {
         font-weight: bold;
@@ -312,6 +378,7 @@
     .footer-menu-item {
         font-size: 11px;
         color: #505050;
+        display: block;
     }
     .wrap-menu-item {
         padding-top: 24px;
@@ -336,7 +403,9 @@
 }
 
 /* end footer */
-
+a {
+    text-decoration: none;
+}
 
 .row {
     margin: 0;
@@ -364,6 +433,9 @@
 }
 .bg-soft-teal {
     background-color: #77b6c2;
+}
+.bg-forest-green {
+    background-color: #13310D;
 }
 .font-size-14px {
     font-size: 14px;
@@ -405,7 +477,82 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.p-4px {
+    padding:4px;
+}
+.text-peach-cream {
+    color: #FDDAA0;
+}
+.pr-4px{
+    padding-right: 4px;
+}
+.pr-2px{
+    padding-right: 2px;
+}
+.text-12px {
+    font-size: 12px;
+}
+.text-14px {
+    font-size: 14px;
+}
+.text-16px {
+    font-size: 16px;
+}
+.text-18px {
+    font-size: 18px;
+}
+.text-20px {
+    font-size: 20px;
+}
+.text-22px {
+    font-size: 22px;
+}
+.text-24px {
+    font-size: 24px;
+}
+.text-24px {
+    font-size: 24px;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
 @media (max-width: 767px) {
+    .sp-text-12px {
+        font-size: 12px !important;
+    }
+    .sp-text-14px {
+        font-size: 14px !important;
+    }
+    .sp-text-16px {
+        font-size: 16px !important;
+    }
+    .sp-text-18px {
+        font-size: 18px !important;
+    }
+    .sp-text-20px {
+        font-size: 20px !important;
+    }
+    .sp-text-22px {
+        font-size: 22px !important;
+    }
+    .sp-text-24px {
+        font-size: 24px !important;
+    }
+    .sp-font-weight-600 {
+        font-weight: 600 !important;
+    }
+    .sp-font-weight-500 {
+        font-weight: 500 !important;
+    }
+    .sp-font-weight-700 {
+        font-weight: 700 !important;
+    }
     .pc-pr-4px {
         padding-right: 0px;
     }
@@ -436,7 +583,7 @@ p {
 
     .block-one {
         .block-people {
-            padding-top:0px;
+            padding-top:80px;
         }
     }
     
@@ -450,7 +597,7 @@ p {
         .ft_navi {
             margin-top: 21px;
         }
-        .ft_navi p {
+        .ft_navi p,a {
             color: #000b41;
             font-size: 14px;
             margin: 0px 16px 16px 16px;
